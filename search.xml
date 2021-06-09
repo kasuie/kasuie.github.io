@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>Pixiv使用指南</title>
+      <link href="/2021/06/05/5/"/>
+      <url>/2021/06/05/5/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="pixiv使用指南">Pixiv使用指南</h1><p>连这个都不知道的，<a href="https://zh.wikipedia.org/wiki/Pixiv" target="_blank">戳我百科了解</a>。通常我们也叫P站（<del>蓝色的那个，</del>以下我也简称P站）。官网地址：<a href="https://www.pixiv.net/" target="_blank">www.pixiv.net</a>。</p><blockquote><p><img src="https://i.loli.net/2021/01/09/DdoQi3BuKtsXrvl.jpg" alt="0_8_cr.jpg" /></p><h2 id="目录"><em>目录</em></h2><ul><li><strong>FAQ常见问题解答</strong></li><li><strong>客户端下载及镜像站</strong></li><li><strong>扩展和脚本</strong></li></ul></blockquote><blockquote><h2 id="faq"><em>FAQ</em></h2><ul><li><blockquote><p><font color="deeppink">Q</font> : 如何注册P站账号？</br><font color="limegreen">A</font> : 注册很简单，也没有门槛，qq邮箱都可以，最主要是需要科学上网，实在不行，后面推荐的两款第三方直连客服端可以直接注册。</p></blockquote></li><li><blockquote><p><font color="deeppink">Q</font> : 为什么我P站上不去？</br><font color="limegreen">A</font> : 从概率上来讲，官方的就自己看看自己网络有没有问题（<del>是否科学上网</del>），建议前往官方渠道下载app，第三方出问题大概率不是你的问题，就等着修复叭。</p></blockquote></li><li><blockquote><p><font color="deeppink">Q</font> : 修改hosts文件还能访问吗？</br><font color="limegreen">A</font> : 2018年9月13日，由DNS污染升级为基于SNI的HTTPS阻断，Hosts访问法失效。</p></blockquote></li><li><blockquote><p><font color="deeppink">Q</font> : 那现在还有哪些方式上P站？</br><font color="limegreen">A</font> : 嗯，在我的已知范围，大多数都是科学上网，其次移动端比较多的会使用第三方直连客服端（后文会介绍），然后还有许多镜像站可以用用，最后<a href="https://2heng.xin/2017/09/19/pixiv/" target="_blank">Nginx 本地代理</a>也是一种方法。</p></blockquote></li><li><blockquote><p><font color="deeppink">Q</font> : 如何开启R18？</br><font color="limegreen">A</font> : 打开P站网址(手机电脑都可以) <a href="https://www.pixiv.net/" target="_blank">pixiv.net</a>，注意官方APP没有开启R18的选项，登录自己账号，年龄设置到18岁以上，然后依次找到1.设置 2.浏览限制 3.打开R18开关 即可，官网直达链接：<a href="https://www.pixiv.net/setting_user.php" target="_blank">www.pixiv.net/setting_user.php</a>。</p></blockquote></li><li><blockquote><p><font color="deeppink">Q</font> : 如何使用画师id或图片id进行搜索？</br><font color="limegreen">A</font> : 使用网页版，主页的上方有提供用UID和PID的搜索方式，或者随便找到一个画师主页链接或者插画页面链接，将自己要找的id替换掉链接后面的数字即可</p></blockquote></li><li><blockquote><p><font color="deeppink">Q</font> : 有一张好康的如何找它的画师or出处？</br><font color="limegreen">A</font> : 对于未经过大范围修剪，修图，保留原图片大部分信息的图，使用<a href="https://saucenao.com/" target="_blank">saucenao</a>搜图网站即可，另外Pixiv-Shaft，Pix-EzViewer等第三方P站内置搜图功能；而与原图相差较大的图，正确搜图方式请看：<a href="https://www.acfun.cn/v/ac13763454" target="_blank">搜图进阶教程</a>，<del>麻麻再也不用担心我找不到原图了</del>。</p></blockquote></li><li><blockquote><p><font color="deeppink">Q</font> : P站如何保存动图？</br><font color="limegreen">A</font> : P站官方不提供下载动图功能，但可以借助其他工具下载，手机某些第三方APP可以下载，例如Pix-EzViewer。电脑就更方便了，很多插件都能下载，后文会有插件推荐的。</p></blockquote></li><li><blockquote><p><font color="deeppink">Q</font> : 如何批量下载P站插画？</br><font color="limegreen">A</font> : 手机某些第三方APP可以下载，例如Pixiv-Shaft，但功能局限性太大，PC端比较方便一点，后文也会有插件推荐。</p></blockquote></li><li><blockquote><p><font color="deeppink">Q</font> : 如何食用P站会员及fanbox？</br><font color="limegreen">A</font> : 会员及赞助画师的fanbox都需要支付一定RMB，会员是550日元每月，约RMB36元，如果有信用卡可以用信用卡支付，没有推荐使用PayPal,fanbox为赞助画师的平台，赞助可得到画师未公开或高分辨率的插画，如果有想法可以考虑和群友商量合作赞助，详情可到QQ群询问：<a href="https://jq.qq.com/?_wv=1027&k=uotkCZkn" target="_blank">877164600</a>。</p></blockquote></li><li><blockquote><p><font color="deeppink">Q</font> : 不想一张一张存，如何批量下载自己fanbox赞助的画师插画？</br><font color="limegreen">A</font> : 依旧是插件大法，后文插件有推荐。</p></blockquote></li><li><blockquote><p><font color="deeppink">Q</font> : 如何让P站的变好康？</br><font color="limegreen">A</font> : 网页版推出了夜间模式（<del>还在测试</del>），还挺好康，推荐！然后以前推荐过的<a href="https://kasuie.top/article/4" target="_blank">stylus插件使用</a>，搭配<a href="https://userstyles.org/styles/browse?search_terms=pixiv&amp;type=false" target="_blank">stylish网站</a>，可能会找你你喜欢的款式。对于客服端，官方是固定的，其他还有各种第三方款式，看自己选择了（<del>后面有两款推荐的，界面还不错</del>）。</p></blockquote></li><li><blockquote><p><font color="deeppink">Q</font> : 有什么使用P站的经验吗？</br><font color="limegreen">A</font> : <del>你有钱就能无所不能</del>。看到自己喜欢的插画记得收藏或者关注该画师大大，这样才不会迷路。刚开始在排行榜上寻找喜欢的画师是个不错的选择。最后遵纪守法！！！</p></blockquote></li></ul></blockquote><blockquote><h2 id="客户端下载及镜像站"><em>客户端下载及镜像站</em></h2><h3 id="1官方客服端">1.官方客服端</h3><ul><li><strong>移动端：</strong><a href="https://play.google.com/store/apps/details?id=jp.pxv.android" target="_blank"><em>Google Play下载</em></a> , <a href="https://apps.apple.com/app/pixiv/id337248563" target="_blank"><em>App Store下载</em></a> , <a href="https://apps.qoo-app.com/app/8750" target="_blank"><em>QooApp下载</em></a> , <a href="https://kasuie.lanzous.com/i4oWXlic0zg" target="_blank"><em>个人网盘下载</em><sub>v5.0.234</sub></a></li><li><strong>PC端：</strong> 无官方客服端</li></ul><h3 id="2第三方客服端">2.第三方客服端</h3><ul><li><h4 id="移动端">移动端</h4></li></ul><ol><li><strong>PixEz Flutter</strong> : <a href="https://play.google.com/store/apps/details?id=com.perol.play.pixez" target="_blank">Google Play下载</a> , <a href="https://apps.apple.com/cn/app/pixez/id1494435126" target="_blank">App Store下载</a> , <a href="https://github.com/Notsfsssf/pixez-flutter/releases" target="_blank">Github下载</a> , <a href="https://kasuie.lanzous.com/iRHXMnzbmub" target="_blank">个人网盘下载<sub>v0.4.5</sub></a> （开源，可直连，推荐）</li><li><strong>Pixiv-Shaft</strong> : <a href="https://play.google.com/store/apps/details?id=ceui.lisa.pixiv" target="_blank">Google Play下载</a> , <a href="https://github.com/CeuiLiSA/Pixiv-Shaft/releases" target="_blank">Github下载</a> , <a href="https://kasuie.lanzous.com/igXrJk61l5i" target="_blank">个人网盘下载<sub>v2.6.3</sub></a>（开源，可直连，下载动图，批量下载，推荐）</li><li><strong>Pix-EzViewer</strong> : <a href="https://github.com/ultranity/Pix-EzViewer/releases" target="_blank">Github下载</a> , <a href="https://kasuie.lanzous.com/iFOzFk63qbg" target="_blank">个人网盘下载<sub>v1.7.4R</sub></a>（开源，可直连，下载动图，已停止维护）</li><li><strong>PivisionM</strong> : <a href="https://github.com/mouyase/PivisionM/releases" target="_blank">Github下载</a> , <a href="https://kasuie.lanzous.com/ic5REk63zcb" target="_blank">个人网盘下载<sub>v4.4.3</sub></a>（开源，可直连）</li><li><strong>PxView</strong> : <a href="https://play.google.com/store/apps/details?id=com.utopia.pxview" target="_blank">Google Play下载</a> , <a href="https://github.com/alphasp/pxview" target="_blank">Github下载</a> , <a href="https://kasuie.lanzous.com/iCA1Ok62ija" target="_blank">个人网盘下载<sub>v4.6.0</sub></a>（开源，不可直连）</li></ol><ul><li><h4 id="pc端">PC端</h4></li></ul><ol><li><strong>Pixeval</strong> : <a href="https://github.com/alphasp/pxview" target="_blank">Github下载</a> , <a href="https://kasuie.lanzous.com/iPdBYk65awd" target="_blank">个人网盘下载<sub>v2.2.5</sub></a>（开源，可直连，支持Windows7~10）</li><li><strong>Pixivfs-uwp</strong> : <a href="https://github.com/sovetskyfish/pixivfs-uwp/releases" target="_blank">Github下载</a> , <a href="https://www.microsoft.com/store/apps/9PM8K64J71PL?cid=storebadge&amp;ocid=badge" target="_blank">微软商店下载</a>（开源，不可直连，Windows）</li><li><strong>PixivDeck</strong> : <a href="https://github.com/akameco/PixivDeck/releases" target="_blank">Github下载</a> （开源，不可直连，Windows）</li></ol><h3 id="3镜像站">3.镜像站</h3><ol><li><strong>Pixivic</strong> : <a href="https://pixivic.com/" target="_blank">pixivic.com</a></li><li><strong>Pixiv年鑑(β)</strong> : <a href="http://pixiv.navirank.com/" target="_blank">pixiv.navirank.com</a></li><li><strong>Pixivギャラリー</strong> : <a href="https://pixiv.moe/" target="_blank">pixiv.moe</a></li></ol><ul><li>其他图站（后三个都是搬运，非画师发布平台）</li></ul><ol><li><a href="https://www.pinterest.jp/" target="_blank">Pinterest</a></li><li><a href="https://www.deviantart.com/" target="_blank">Deviantart</a></li><li><a href="https://fantia.jp/" target="_blank">Fantia</a></li><li><a href="https://anime-pictures.net/" target="_blank">Anime-pictures</a></li><li><a href="https://yande.re/" target="_blank">Yande</a></li><li><a href="https://konachan.com/" target="_blank">Konachan</a></li></ol></blockquote><p><img src="https://i.loli.net/2021/01/09/ZpEUNraxGgTXRz5.png" alt="71631884_p0.png" /></p><blockquote><h2 id="扩展和脚本"><em>扩展和脚本</em></h2><ul><li><h4 id="拓展">拓展</h4></li></ul><ol><li><strong>Powerful Pixiv Downloader</strong>: <a href="https://pixiv.download" target="_blank">官网下载</a> , <a href="https://chrome.google.com/webstore/detail/powerful-pixiv-downloader/dkndmhgdcmjdmkdonmbgjpijejdcilfh" target="_blank">谷歌网上应用商店</a> , <a href="https://github.com/xuejianxianzun/PixivBatchDownloader/releases" target="_blank">Github下载</a>（功能强大的 Pixiv 图片、小说批量下载器）</li><li><strong>Pixiv Toolkit</strong>:  <a href="https://chrome.google.com/webstore/detail/pixiv-toolkit/ajlcnbbeidbackfknkgknjefhmbngdnj" target="_blank">谷歌网上应用商店</a> , <a href="https://github.com/leoding86/webextension-pixiv-toolkit/releases" target="_blank">Github下载</a>（将P站动图转化成gif或webm格式，漫画打包下载的工具包）</li><li><strong>Pixiv Fanbox Downloader</strong>: <a href="https://chrome.google.com/webstore/detail/pixiv-fanbox-downloader/ihnfpdchjnmlehnoeffgcbakfmdjcckn" target="_blank">谷歌网上应用商店</a>（批量下载Pixiv Fanbox上自己已赞助的画师文件。支持过滤文件类型，自定义文件名）</li></ol><ul><li><h4 id="脚本">脚本</h4></li></ul><ol><li><strong>Pixiv 增强</strong>: <a href="https://greasyfork.org/zh-CN/scripts/34153-pixiv-plus" target="_blank">Greasy Fork安装</a>（屏蔽广告，热门搜索，显示图片尺寸，下载动图）</li><li><strong>Pixiv Previewer</strong>: <a href="https://greasyfork.org/zh-CN/scripts/30766-pixiv-previewer" target="_blank">Greasy Fork安装</a> , <a href="https://github.com/Ocrosoft/PixivPreviewer/releases" target="_blank">Github下载</a>（显示预览图；动图压缩包下载；搜索页按热门度排序并显示收藏数）</li><li><strong>Pixiv热门作品推荐功能</strong>: <a href="https://greasyfork.org/zh-CN/scripts/28604-pixiv-p%E7%AB%99-%E7%83%AD%E9%97%A8%E4%BD%9C%E5%93%81%E6%8E%A8%E8%8D%90%E5%8A%9F%E8%83%BD" target="_blank">Greasy Fork安装</a>（非会员用户直接点击热门推荐图片链接及模拟按收藏人数搜索功能）</li><li><strong>Pixiv - Dark Theme</strong>: <a href="https://userstyles.org/styles/133057/pixiv-dark-theme" target="_blank">Stylish下载</a>（暗夜模式）</li></ol><blockquote><p><strong><font color="red">注：</font></strong> 以上插件基于谷歌内核，其他不一定适用，建议使用最新版<a href="https://www.google.com/intl/zh-CN/chrome/" target="_blank">谷歌浏览器</a>。脚本不能直接使用，其中1,2,3,需要安装Tampermonkey（油猴）：<a href="https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo" target="_blank">谷歌网上应用商店</a>, <a href="https://www.tampermonkey.net/" target="_blank">官网下载</a>，<a href="https://kasuie.lanzous.com/iN8Lvk7h6mh" target="_blank">个人网盘下载<sub>v_4.11.0</sub></a>，（插件离线安装步骤：下载并修改'xxx.crx'的文件后缀为'xxx.rar'，解压到一个文件夹内，再到浏览器找到扩展设置并打开右上角开发者模式，左上角点击加载已解压的插件压缩包，确认即可），其中4需要安装stylus导入使用 ：<a href="https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne" target="_blank">谷歌网上应用商店</a>，详细请看我的上一篇文章：<a href="https://kasuie.top/article/4" target="_blank">网站自定义样式---Stylus</a>。</p></blockquote></blockquote><blockquote><h2 id="最后"><em>最后</em></h2></blockquote> 有错误或者更好的建议或者推荐欢迎提出！！！</br> 写作环境： 学校</br> 内心OS： <del>明明还要备考的，却又在摸鱼</del></br> 时间： 2021-01-09 16:39:04<p><img src="https://i.loli.net/2021/01/09/Pnm8FBc7zKadYTL.png" alt="uPZd2t5b.png" /></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 教程 </category>
+          
+          <category> Pixiv </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 教程 </tag>
+            
+            <tag> 插件 </tag>
+            
+            <tag> Pixiv </tag>
+            
+            <tag> 资源 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>初用VUE---资源导航</title>
+      <link href="/2021/06/01/7/"/>
+      <url>/2021/06/01/7/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="初用vue---资源导航">初用VUE---资源导航</h1><blockquote><p><strong>祝大家六一儿童节快乐啊！</strong></p></blockquote><p><img src="https://i.loli.net/2021/06/01/j5bp6cW83BKqAue.jpg" alt="E2xRZEWVgAMvNA1.jpg" /></p><blockquote><h2 id="目录">目录</h2><ul><li>前言</li><li>使用</li><li>代码相关</li></ul></blockquote><blockquote><h2 id="前言">前言</h2><p><del>咕咕咕</del>，本来是一直处于咕咕咕但没完全咕咕咕的状态的，之前挖的好多坑都处于闲置状态，“图片墙”也在做了，但由于涉及到模块化开发，之前都没接触过，一时间很难一口吞下，便想着还是先系统学习再说，然后就闲置了很久，这次做的是一个导航网页，之前做过的，但是那会儿没有后端，用JS存储数据，又由于数据也算比较多了，实现一些功能就使得网页耗费设备资源实在太多，再加上是Github page，国内访问又巨慢，所以使用体验极差，旧版导航网址：<a href="https://pixlips.ga" target="_blank">https://pixlips.ga</a> ,现在重新写了一下页面，与以往不同，这次使用了热门前端框架Vue.js，就很方便，之前使用的模板引擎的EL表达式，本来这个导航刚开始我其实也是想用直接用模版引擎渲染输出的，但是后来有些功能实现非常不便，便改用了Vue。</p></blockquote><p><img src="https://i.loli.net/2021/06/01/oSzY8UdcF3ZV2an.jpg" alt="90077053_p0.jpg" /></p><blockquote><p>至于为什么突然爆肝<del>（其实也不肝，只是之前太摸鱼了）</del>就比较感谢群里的好兄弟，由于自己QQ会员过期了，群降级人数就限制了，本来自己就很摸鱼了，连每日搬运都鸽了，没想到知道群降级了，一些群友给我众筹买会员，妈耶莫名被感动到。所以我肯定不能辜负群友的热情啊。</p><ul><li><strong>伤封</strong>（164651394）</li><li><strong>最废崽</strong>（807861499）</li><li><strong>雨儿</strong>（3188504976）</li><li><strong>宰了徐凤年</strong>（1321725331）</li><li><strong>因为我是你妈</strong>（2728663929）</li><li><strong>轻风！喵！</strong>（1664354401）</li><li><strong>［有人@我］</strong>（3153929282）</li></ul></blockquote><blockquote><p>非常感谢以上群友，说好的福利也在摸了。</p></blockquote><blockquote><h2 id="使用">使用</h2><p><strong>导航主页</strong>：<a href="https://kasuie.top/nav" target="_blank">https://kasuie.top/nav</a> ,博客导航栏也添加了，更多-&gt;导航，可查看。把自己浏览器的书签整理后做的此网页，旨在节省时间，本网页不提供直接下载资源和代理功能，如遇下载不了or网页打不开，还请自行科学上网。请使用主流浏览器浏览本网页，<del>最好是谷歌</del>。如遇其他问题or建议，请邮箱联系我。暂时一共9个大的分类，分为动漫(57)，漫画(31)，游戏(26)，小说(14)，图片(36)，软件(61)，网站(71)，插件(30)，影视(15)。可根据tag筛选。</p></blockquote><blockquote><h2 id="代码相关">代码相关</h2><h3 id="el表达式和vue对比">EL表达式和Vue对比</h3><p><strong>EL表达式:</strong></p></blockquote><pre><code class="language-javascript">&lt;li th:each=&quot;navItem:$&#123;navItems&#125;&quot; v-for=&quot;navItem in navItems&quot; class=&quot;navItem&quot;&gt;      &lt;div&gt;&lt;span th:text=&quot;$&#123;navItem.type&#125;&quot; class=&quot;type&quot;&gt;&lt;/span&gt;&lt;ul&gt;&lt;li class=&quot;tag&quot;&gt;全部&lt;/li&gt;&lt;li th:each=&quot;tag:$&#123;navItem.tags&#125;&quot; th:text=&quot;$&#123;tag&#125;&quot; class=&quot;tag&quot; th:onclick=&quot;|tags($&#123;navItem.typeId&#125;,event)|&quot;&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;           &lt;ul th:id=&quot;'id'+$&#123;navItem.typeId&#125;&quot;&gt;                &lt;li th:each=&quot;site:$&#123;navItem.getSitesItems()&#125;&quot; class=&quot;site&quot;&gt;&lt;a href=&quot;&quot; th:href=&quot;$&#123;site.url&#125;&quot; th:text=&quot;$&#123;site.name&#125;&quot; target=&quot;_blank&quot; th:title=&quot;$&#123;site.comment&#125;&quot;&gt;&lt;/a&gt;&lt;span th:text=&quot;$&#123;site.comment&#125;!=null?$&#123;site.comment&#125;:'暂未添加描述'&quot;&gt;测试&lt;/span&gt;&lt;/li&gt;           &lt;/ul&gt;&lt;/li&gt;</code></pre><blockquote><p><strong>Vue：</strong></p></blockquote><pre><code class="language-javascript">&lt;li v-for=&quot;navItem in navItems&quot; class=&quot;navItem&quot; v-bind:class=&quot;'navItem'+navItem.typeId&quot;&gt;     &lt;div&gt;&lt;span v-text=navItem.type class=&quot;type&quot;&gt;&lt;/span&gt;&lt;ul&gt;&lt;span class=&quot;tag_icon&quot;&gt;&lt;img src=&quot;&quot; th:src=&quot;@&#123;/static/img/tag.png&#125;&quot; alt=&quot;tag&quot;&gt;&lt;/span&gt;&lt;li class=&quot;tag&quot; :class=&quot;tagFlag[1]==''||tagFlag[1]==null?'tagAll':''&quot; @click=&quot;tags(navItem.typeId,event)&quot;&gt;全部&lt;/li&gt;&lt;li v-for=&quot;tag in navItem.tags&quot; v-text=tag class=&quot;tag&quot; :class=&quot;tagFlag[0]==navItem.typeId&amp;tagFlag[1]==tag?'tagShow':''&quot; @click=&quot;tags(navItem.typeId,event)&quot;&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;           &lt;ul :id=&quot;'id'+navItem.typeId&quot; class=&quot;ul_site&quot;&gt;                  &lt;li v-for=&quot;site in navItem.sitesItems&quot; class=&quot;site&quot;&gt;&lt;a v-bind:href=&quot;site.url&quot; v-text=&quot;site.name&quot; target=&quot;_blank&quot; :title=&quot;site.comment&quot;&gt;&lt;/a&gt;&lt;span v-text=&quot;site.comment!=null?site.comment:'暂未添加描述'&quot;&gt;测试&lt;/span&gt;&lt;/li&gt;           &lt;/ul&gt;&lt;/li&gt;</code></pre><blockquote><p><strong>tag功能实现：</strong>起初是想的在后端根据tag划分好，再将数据传回，以下是后端相关代码：</p></blockquote><pre><code class="language-java">    @GetMapping(&quot;/nav/&#123;typeId&#125;/&#123;tag&#125;&quot;)    public List&lt;NavItem&gt; tags(@PathVariable Integer typeId, @PathVariable String tag, Model model)&#123;        List&lt;NavItem&gt; navItems = new ArrayList&lt;&gt;();        List&lt;String&gt; tags = new ArrayList&lt;&gt;();        List&lt;Site&gt; siteItems;        for (int i = 0; i &lt; 9; i++) &#123;            siteItems = navService.queryByTid(i);            tags = getTags(siteItems);            navItems.add(i,new NavItem(i,type[i],siteItems,tags));        &#125;        //根据tag筛选        NavItem navItem = navItems.get(typeId);        List&lt;Site&gt; sites = new ArrayList&lt;&gt;();        for (Site site : navItem.getSitesItems())&#123;            if (site.getTags().contains(tag))&#123;                sites.add(site);            &#125;        &#125;        navItem.setSitesItems(sites);        navItems.set(typeId,navItem);        model.addAttribute(&quot;navItems&quot;,navItems);        return navItems;    &#125;</code></pre><blockquote><p>由于这样请求就太多了，还有页面展示不太方便，便将数据处理在前端实现，以下是前端相关代码：</p></blockquote><pre><code class="language-javascript">tags: function(tid,e)&#123;                let typeId = tid;                let tag = e.target.innerHTML;                let that = this;                tag=='全部'?that.tagFlag[1] = '':that.tagFlag[1] = tag;                tag=='全部'?that.tagFlag[0] = -1:that.tagFlag[0] = typeId;                let sites =new Array();                that.navItems = JSON.parse(JSON.stringify(that.temp));                if (tag!='全部')&#123;                    sites = that.temp[typeId].sitesItems;                    let i = 0;                    for (let index in sites)&#123;                        if (sites[index].tags.indexOf(tag)!=-1)&#123;                            that.navItems[typeId].sitesItems[i]=sites[index];                            i++;                        &#125;                    &#125;                    that.navItems[typeId].sitesItems = that.navItems[typeId].sitesItems.splice(0,i);                &#125;            &#125;,</code></pre><blockquote><p>navItems存储的输出数据，页面每一次请求返回的数据将会保存在其中，另外还有一个temp变量，因为根据tag筛选后将会改变永久navItems内数据，所以将最初从后端请求的数据备份保存在temp中，以便点击“全部”tag能够恢复全部数据。</p></blockquote><blockquote><p>更多功能待实现······</p></blockquote><blockquote><h2 id="最后">最后</h2><p>写作环境：学校</p><p>心情OS：六一儿童节快乐啊！</p><del>请我喝一杯咖啡叭</del>之后会给参入众筹的群友福利，有想法的请付款的时候备注一下QQ号，金额都随便。<div><img src="https://i.loli.net/2021/06/01/3ATBznpdHQMqliG.jpg" width="45%"> <img src="https://i.loli.net/2021/06/01/zipRKbIA3L9MOsD.jpg" width="45%"></div><img src="https://i.loli.net/2021/06/01/nWbglDQNhVSXOed.jpg" alt="90069478_p0.jpg" /></blockquote>]]></content>
+      
+      
+      <categories>
+          
+          <category> 资源类 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Java </tag>
+            
+            <tag> 导航 </tag>
+            
+            <tag> Vue </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>新年快乐</title>
+      <link href="/2021/02/12/6/"/>
+      <url>/2021/02/12/6/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><blockquote><h1 id="新年快乐">新年快乐</h1><p>又是一年春节，和去年相比，我好像是一样的，但是我也一定不一样。</p></blockquote><p><img src="https://i.loli.net/2021/02/12/HZCMtPaYJ7vGzQc.jpg" alt="0_87702599_p0.jpg" /></p><blockquote><h2 id="祝福">祝福</h2></blockquote><p>啊，大过年还是要开心。个人不喜欢群发的祝福，<del>有被群发吵到</del>，虽然是好意，但是事实确实是这样，因此自己也不想群发惹得烦，于是我在这里衷心祝福大家新年快乐，无论是爱我的还是我爱的，好久不见还是日日相随的，每天聊天不停的还是列表里默默无声的，相互熟悉还是素未谋面的，熟悉的还是陌生的......我希望你们每个人都快乐、健康。</p><p>凡是过去，皆为序章。希望愉悦的记忆都刻骨铭心，痛苦的记忆都烟消云散，新的一年，我们一起向前。</p><blockquote><h2 id="回顾">回顾</h2></blockquote><p>记得的事情不多，看了很多剧，很多动漫，当然也有认真学了一点点，还有体验了到了在家上网课的乐趣，然后暑假顶着大太阳去教室上课真的有崩溃到，然后今年冬天又感觉特别冷，但是也特别暖，冷是因为天气，暖是因为她。</p><blockquote><h2 id="展望">展望</h2></blockquote><p>好好的，做一个温柔可靠<del>(可爱)</del>的人。</p><blockquote><h2 id="写作环境">写作环境</h2></blockquote><ul><li>地点：家里<del>床上</del></li><li>时间：2021-02-12 15:49:50</li><li>心情：很开心</li></ul><p><img src="https://i.loli.net/2021/02/12/sC8Ph2kOcNMam5d.jpg" alt="0_87557715_p0.jpg" /></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 碎碎念 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 点滴 </tag>
+            
+            <tag> 新年 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>网站自定义样式---Stylus</title>
+      <link href="/2020/12/18/4/"/>
+      <url>/2020/12/18/4/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><blockquote><h1 id="网站自定义样式---stylus">网站自定义样式---Stylus</h1><p><img src="https://i.loli.net/2020/12/18/E2hIJP9y1ZYBiCm.png" alt="C45MX7aB.png" /></p></blockquote><blockquote><h2 id="前言">前言：</h2></blockquote><blockquote><p>作为一个对什么东西都喜欢自定义的人来说，如果网页元素不符合自己的欣赏口味，这无疑很让人难受，尤其是自己喜欢且还会经常用到的，因此高度自定义网页样式，对我而言尤为有用。</p></blockquote><hr/><blockquote><h2 id="插件简介">插件简介；</h2></blockquote><p>Stylus 是一款网页美化扩展，是一个基于Stylish 开发的分支，而Stylish 虽然也很好用，但是由于被爆隐私问题，因此不再推荐。Stylus 在原Stylish 基础上，重写并优化了大部分代码来提升性能并且开源（<a href="https://github.com/openstyles/stylus" target="_blank">Stylus</a>），因此就我目前我所知来讲，Stylus 在这方面是最好的选择。</p><blockquote><h2 id="插件下载">插件下载；</h2><p><del>自行科学上网。</del></p></blockquote><ul><li><strong>Chorme:</strong> <a href="https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne?utm_source=chrome-ntp-icon" target="_blank">谷歌应用商店</a></li><li><strong>Firefox:</strong> <a href="https://addons.mozilla.org/zh-CN/firefox/addon/styl-us/?utm_source=addons.mozilla.org&amp;utm_medium=referral&amp;utm_content=search" target="_blank">Stylus:Firefox 扩展</a></li><li><strong>Opera:</strong> <a href="https://addons.opera.com/zh-cn/extensions/details/stylus/" target="_blank">Stylus:Opera 扩展</a></li><li><strong>Edge:</strong> 新版edge采用了chromium内核，讲道理也是能离线安装这个插件的</li></ul><blockquote><h2 id="插件使用">插件使用；</h2><p>插件安装好后，就可以安装样式了，安装样式主要有三个方法：</p></blockquote><ol><li>安装好插件后，点击浏览器菜单栏上的 Stylus 按钮，它会显示当前网页可用的样式。</li><li>去 Stylish 的样式网站下载安装（<a href="https://userstyles.org/" target="_blank">Stylish </a>）（虽然插件下架，但这些样式并没有任何问题，可以放心使用）。</li><li>对于有 Css 基础的可以自己简单学习一下stylus的规则就可以为网页编写编写样式并应用了，<del>也可以在别人的样式基础上改进，以符合自己“口味”</del>。</li></ol><p>注：stylus 有备份功能。不仅可以导出样式的压缩文件，还可以通过加载别人的压缩文件。</p><blockquote><h2 id="最后">最后；</h2></blockquote><ul><li>时间：2020-12-18 19:16:48</li><li>地点：学校</li><li>心情：还不错</li><li>内心OS：还有3周就放假啦！<img src="https://i.loli.net/2020/12/18/gJiQvxu2nN3G56t.png" alt="EMPVldqe.png" /></li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> 代码宅 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Stylus </tag>
+            
+            <tag> 插件 </tag>
+            
+            <tag> 美化 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>过去和未来</title>
+      <link href="/2020/12/04/3/"/>
+      <url>/2020/12/04/3/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><blockquote><h1 id="过去和未来">过去和未来</h1></blockquote><p><img src="https://i.loli.net/2020/12/04/biOFdC67uhpGt1o.png" alt="XqB3b4zp.png" /></p><p><em><strong>简介：</strong></em></p><blockquote><p>此文记录一些：踩坑记录+目前待优化及bug+待实现功能注意：我使用的编译器为IDEA v2020.2.2；Spring Boot为v2.3.5.RELEASE；JDK为1.8</p></blockquote><ul><li><h2 id="踩坑记录"><em>踩坑记录</em></h2></li></ul><h4 id="1静态资源路径的配置">1.静态资源路径的配置</h4><p>第一次使用thymeleaf的时候，困扰我很久时间的问题是跳转页面后静态资源总是404，以前学习的时候貌似并没有提到这个问题（~~也有可能是自己没认真~~），所以自己去查找了一下解决方案，最终解决方案是在application.properties（在yml文件配置也是一样的）中自己配置静态资源的位置映射,以下是我的配置。</p><pre><code class="language-java">spring.resources.static-locations=classpath:/templates/</code></pre><h4 id="2拦截器注册">2.拦截器注册</h4><p>当然并不是所有静态资源都是能直接访问，所以需要注册拦截器，刚开始我的做法是继承WebMvcConfigurerAdapter以实现，但发现其已经过时，不推荐使用，而是改用实现WebMvcConfigurer这个接口，以下是我的代码示例。</p><pre><code class="language-java">package com.kasuie.blog.config;import com.kasuie.blog.interceptor.AdminInterceptor;import org.springframework.context.annotation.Configuration;import org.springframework.web.servlet.config.annotation.InterceptorRegistry;import org.springframework.web.servlet.config.annotation.ResourceHandlerRegistry;import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;@Configurationpublic class WebMvcConfig implements WebMvcConfigurer &#123;    @Override    public void addResourceHandlers(ResourceHandlerRegistry registry) &#123;        registry.addResourceHandler(&quot;/static/**&quot;).addResourceLocations(&quot;classpath:/static/&quot;);    &#125;    @Override    public void addInterceptors(InterceptorRegistry registry) &#123;        registry.addInterceptor(new AdminInterceptor()).addPathPatterns(&quot;/admin/**&quot;).excludePathPatterns(&quot;/admin&quot;,&quot;/admin/&quot;,&quot;/admin/login.html&quot;,&quot;/admin/login&quot;,&quot;/&quot;);    &#125;&#125;</code></pre><h4 id="3springboot阿里云的https配置">3.SpringBoot+阿里云的https配置</h4><p>本来是打算用<a href="https://github.com/Suwings/MCSManager/wiki/%E5%85%B3%E4%BA%8E%E5%AE%9D%E5%A1%94%E9%9D%A2%E6%9D%BF%E7%9A%84-Nginx-%E5%8F%8D%E5%90%91%E4%BB%A3%E7%90%86%E4%BB%A5%E5%8F%8ASSL%E8%AF%81%E4%B9%A6%E9%83%A8%E7%BD%B2" target="_blank">关于宝塔面板的 Nginx 反向代理以及SSL证书部署</a>实现https的，因为之前用过，也非常方便的，免费且可自动进行续签，但是不知道是不是服务器的原因，宝塔面板没登上去，所以改用阿里云，之前没用过，第一次用，总的来说也很方便。阿里云个人可以免费申请一年的SSL证书，到期貌似是可免费续的，申请成功后，把对应的证书下载到本地，把下载后的压缩包内容置入对应项目的resources目录下，当然还需要在application.properties中配置，以下是我的：</p><pre><code class="language-java">server.ssl.key-store=（以.pfx为后缀的证书文件）server.ssl.key-store-password=（放在pfx-password.txt中的密码）</code></pre><p>当然到这里还没完，你还需要自己创建一个配置类，把http 80端口转到https 443端口</p><pre><code class="language-java">package com.kasuie.blog.config;import org.apache.catalina.Context;import org.apache.catalina.connector.Connector;import org.apache.tomcat.util.descriptor.web.SecurityCollection;import org.apache.tomcat.util.descriptor.web.SecurityConstraint;import org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory;import org.springframework.context.annotation.Bean;import org.springframework.context.annotation.Configuration;@Configurationpublic class TomcatConfig &#123;    @Bean    TomcatServletWebServerFactory tomcatServletWebServerFactory() &#123;        TomcatServletWebServerFactory factory = new TomcatServletWebServerFactory()&#123;            @Override            protected void postProcessContext(Context context) &#123;                SecurityConstraint constraint = new SecurityConstraint();                constraint.setUserConstraint(&quot;CONFIDENTIAL&quot;);                SecurityCollection collection = new SecurityCollection();                collection.addPattern(&quot;/*&quot;);                constraint.addCollection(collection);                context.addConstraint(constraint);            &#125;        &#125;;        factory.addAdditionalTomcatConnectors(createTomcatConnector());        return factory;    &#125;    private Connector createTomcatConnector() &#123;        Connector connector = new                Connector(&quot;org.apache.coyote.http11.Http11NioProtocol&quot;);        connector.setScheme(&quot;http&quot;);        connector.setPort(80);        connector.setSecure(false);        connector.setRedirectPort(443);        return connector;    &#125;&#125;</code></pre><p>以上就是我的配置过程，这个倒是没有遇到什么坑，比较顺利。</p><h4 id="4url异常出现jsessionid">4.url异常出现jsessionid</h4><p>jsessionid是标明session的id的，存在于cookie中的，一般情况下不会出现在url中，出现原因我大致百度了一下，发现是浏览器禁用了cookie或者cookie中不存在jsessionid，解决方案我也看到很多种，最终尝试了一下一个比较简单代码少的方法，就是在application.properties中配置禁使用jsessionid，以下是我的配置：</p><pre><code class="language-java">server.servlet.session.tracking-modes=cookieserver.servlet.session.cookie.http-only=true</code></pre><h4 id="5在spring-boot中使用servlet">5.在Spring Boot中使用servlet</h4><p>~~又想起了刚学java web时被servlet支配的恐惧了，框架果然香啊。~~不过在这个项目中还是使用了serlvet，因此记录一下过程。非常简单，写一个servlet在上面添加@WebServlet注解，以下是我博客验证码的servlet程序。</p><pre><code class="language-java">package com.kasuie.blog.servlet;import javax.imageio.ImageIO;import javax.servlet.ServletException;import javax.servlet.annotation.WebServlet;import javax.servlet.http.HttpServlet;import javax.servlet.http.HttpServletRequest;import javax.servlet.http.HttpServletResponse;import java.awt.*;import java.awt.image.BufferedImage;import java.io.IOException;import java.util.Random;@WebServlet(urlPatterns = &quot;/code&quot;)public class VerifyCodeServlet extends HttpServlet &#123;    @Override    protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException &#123;        int width = 80;        int height = 32;        String data = &quot;ABCDEFGHJKLMNPQRSTUVWXYZ23456789abcdefghijklmnpqrstuvwxyz&quot;;        Random random = new Random();        BufferedImage image = new BufferedImage(width, height, BufferedImage.TYPE_INT_RGB);        Graphics g = image.getGraphics();        g.setColor(Color.gray);        g.fillRect(0, 0, width, height);        g.setColor(Color.WHITE);        g.fillRect(1, 1, width-2, height-2);        StringBuilder builder = new StringBuilder();        g.setFont(new Font(&quot;宋体&quot;, Font.BOLD&amp;Font.ITALIC, 20));        for(int i = 0 ; i &lt; 4 ;i ++)&#123;            g.setColor(new Color(random.nextInt(255),random.nextInt(255), random.nextInt(255)));            int index = random.nextInt(data.length());            String str = data.substring(index, index + 1);            builder.append(str);            g.drawString(str, (width / 6) * (i + 1) , 20);        &#125;        for(int j=0,n=random.nextInt(50);j&lt;n;j++)&#123;            g.setColor(Color.RED);            g.fillRect(random.nextInt(width),random.nextInt(height),1,1);        &#125;        String tempStr = builder.toString();        req.getSession().setAttribute(&quot;sessionCacheData&quot;,tempStr);        ImageIO.write(image, &quot;jpg&quot;, resp.getOutputStream());    &#125;&#125;</code></pre><p>其中@WebServlet(urlPatterns = &quot;/code&quot;)即为注解。</p><ul><li><h2 id="目前待优化及已知bug"><em>目前待优化及已知bug</em></h2></li></ul><p><img src="https://i.loli.net/2020/12/04/F8NRjMUdlGsETH7.png" alt="pPDHzAGJ.png" /></p><ol><li>回到顶部优化</li><li>搜索功能特定情况出现页面卡死</li><li>文章字体显示过暗</li><li>随心记页面优化</li><li>留言页面优化</li><li>搜索结果显示页面优化</li></ol><ul><li><h2 id="待实现功能"><em>待实现功能</em></h2></li></ul><ol><li>登录用户自定义头像</li><li><strong><a href="https://tamako.ga" target="_blank">安利墙</a></strong> 项目转移本网站</li><li>暗夜模式</li><li>二次元老婆展示功能</li><li>投票功能</li><li>RSS订阅</li></ol><p><strong>注：</strong> 以上仅供参考，看心情摸鱼，如果实现难度过大或没有实际用处我大概不会弄。<img src="https://i.loli.net/2020/12/04/FBzEWGYq7yNiCxh.png" alt="Lu80vale.png" /></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 代码宅 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Java </tag>
+            
+            <tag> SpringBoot </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>BAT批处理---文件重命名</title>
+      <link href="/2020/12/01/2/"/>
+      <url>/2020/12/01/2/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><blockquote><h1 id="bat批处理---文件重命名">BAT批处理---文件重命名</h1></blockquote><p><img src="https://i.loli.net/2020/12/01/14sABp37bQ9EnJu.png" alt="喵喵喵？" title="喵喵喵？" /></p><blockquote><h2 id="自言自语">自言自语；</h2></blockquote><p>因为我每天收集图片很多的原因，而像twitter这样的平台每次存的图，文件名都很乱，就个人来说，看起来很不舒服，而每张手动重命名又很费时间，因此这个批量改名的方法对我来说用处还很大。</p><blockquote><h2 id="下面开始介绍">下面开始介绍；</h2></blockquote><h3 id="如何使用"><span style="color: red;"><strong>如何使用</strong></span>：</h3><p>右键新建一个txt文档，在里面写指令即可，写好后改后缀<strong> <u>.txt</u></strong>为<strong><u>.bat</u></strong>，然后放到需要批量重命名的文件夹双击即可<strong><span style="color: red;">注意</span></strong>：我的是Windows，文件拓展名要显示，因为涉及有改扩展名的。</p><ul><li>#### <strong>首先从简单的开始，单个文件重命名</strong><em><strong>示例</strong></em>：</li></ul><blockquote><p style="color: #0092ff !important">ren image.png picture.jpg</p></blockquote><p><em><strong>解释</strong></em>：将image.png重命名为picture.jpg，可以看到ren是重命名指令，整体是由<u>ren</u>+<u>原始文件名</u>+<u>修改后文件名</u>构成，包括扩展名也可以修改。</p><ul><li>#### <strong>多个文件重命名（1）</strong><em><strong>示例</strong></em>：</li></ul><blockquote><p style="color: #0092ff !important">setlocal EnableDelayedExpansionfor %%i in (*.jfif)do (ren %%i test_%%i.jpg)</p></blockquote><p><em><strong>解释</strong></em>：第一行启用延迟变量，后面需要用到变量i，所以要启动。第二行循环遍历该文件夹内所有以.jfif结尾的文件，依次赋值给变量%%i。第三行将每次遍历的变量%%i（此时这个%%i即为文件名）然后用 <u>ren</u>+<u>原始文件名</u>+<u>修改后文件名</u>的格式来重命名，比如一个文件名为image.jfif的文件，修改后文件名成为了test_image.jpg</p><ul><li>#### 多个文件重命名（2）<em><strong>示例</strong></em>：</li></ul><blockquote><p style="color: #0092ff !important">@echo offset a=0setlocal EnableDelayedExpansionfor %%n in (*.jpg)do (set /a a+=1ren &quot;%%n&quot; &quot;image_!a!.jpg&quot; )</p></blockquote><p><em><strong>解释</strong></em>：第一行关闭回显(命令执行完不会再显示器显示)。第二行设置变量a=0。第三行同上。第四行同上，循环遍历所有文件名以.jpg结尾的文件。第五行每次循环a都+1一次。</p><blockquote><p>##最后;</p></blockquote><p>用不用得上还是看个人了，批量重命名这也只是其中一种方法。<img src="https://i.loli.net/2020/12/01/8saMKF94RVDwQfO.png" alt="喵喵喵？" title="喵喵喵？" /></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 小技巧 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> BAT </tag>
+            
+            <tag> 教程 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>世界你好</title>
+      <link href="/2020/11/28/1/"/>
+      <url>/2020/11/28/1/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><blockquote><h1 id="世界你好">世界你好；</h1></blockquote><blockquote><p>第一篇，也不知道写啥好，总之还是费了很久时间的（~~大概摸了一个月~~）。<img src="https://i.loli.net/2020/11/28/kpGWYODZMrazjgi.png" alt="bottom.png" /></p></blockquote><h2 id="使用技术">使用技术；</h2><blockquote><p><strong>后端</strong></p></blockquote><ul><li>核心框架：SpringBoot</li><li>项目构建：jdk1.8、Maven 3</li><li>持久层：Mybatis</li><li>模板引擎：Thymeleaf</li><li>其他：Servlet</li></ul><blockquote><p><strong>前端</strong></p></blockquote><ul><li>html，css，javascript</li><li>UI框架：Semantic UI</li><li>JS框架：JQuery</li><li>其他：Ajax</li></ul><blockquote><p><strong>数据库</strong></p></blockquote><ul><li>MYSQL 5.7</li></ul><p><em>因为第一次写，参考了Github上两个开源的博客源码。其实主要是为了前端兼容问题，不太擅长做移动端兼容。然后发现页面不太符合我的审美，所以就极大程度的魔改了。因此，到目前为止都还有很多bug和页面的不美观，暂时也不想管了，等后面摸吧。(这里推一下以前练习做的网站：<a href="https://pixlips.tk" title="导航" target="_blank">导航</a>，<a href="https://tamako.ga/" title="安利墙" target="_blank">安利墙</a>，github page做的，所以国内访问肯定不快。)</em></p><blockquote><h2 id="博客内容">博客内容；</h2></blockquote><ul><li>自由，没有想好一定要写些什么。</li><li>个人比较胡思乱想，可能经常会发发牢骚</li><li>没有坏脾气，喜欢好脾气，互相尊重</li><li>对于网站有什么好的建议可以告诉我呀。</li></ul><p><strong>最后</strong></p><blockquote><h2 id="写作环境">写作环境</h2></blockquote><ul><li>地点：学校；</li><li>时间：2020-11-28 17:31:22</li><li>OS：WINDOWS 10</li><li>~~心情：很不好~~</li><li>~~内心OS：<strong>我真是一个大笨蛋</strong>~~<img src="https://i.loli.net/2020/11/28/qx5a86wvspX3Afu.png" alt="FuwoGC8b.png" /></li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> 碎碎念 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 介绍 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+  
+  
+</search>
